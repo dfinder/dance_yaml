@@ -1,0 +1,68 @@
+---
+- song: torre de babel
+  tempo: 200 bpm(5/6)
+  rhythm: 8/8
+  notes: guitar likes to work in 8th notes, so we're functionally working at 200 BPM I think. 
+  parts:
+  - part: 1
+    sections: 
+      section: flower
+      num_measures: 6
+      arrangement: Circlular pattern, with alternating A/B sections of partners, facing inwards.
+                    For the purposes of the test video, "A"'s are Hanna Weisman, B's are Amalia Cowen. 
+      measures:
+        - measure: 1
+          mark: 0
+          action: no action
+        - measure: 2
+          beats:
+          - beat: 0
+            mark: 2.4(2.12f)
+            time: 1 beat
+            action:
+            - a_group: Raise right arm from being on hip to plane of shoulder(exterior)
+            - b_group: Raise right arm from being on hip to plane of shoulder(interior)
+          - beat: 4
+            mark: 3.8
+            time: 1 beat
+            action:
+            - a_group: Raise left arm from being on hip to plane of shoulder(interior)
+            - b_group: Raise left arm from being on hip to plane of shoulder(exterior)
+        - measure: 3
+          mark: 4.6 | 4.24f
+          counts: 8
+          simultaneous actions: 
+            - both groups: rotate right, such that you go from facing your partner, to facing outside(group b) or inside(group b) 
+            - a_group: "Bloom out" swing both arms out presenting them, and then slowly dropping them to the ground
+            - b_group: "Bloop up", swing both arms up, then slowly bring it down
+        - measure: 4
+          mark: 7.2 | 7.6f
+          beats:
+            - beat: 0 
+              action: 
+                - a_group: Raise right arm to neck then swing out to perpendicular, like a bird spreading its wings, hands flat.
+                - b_group: mirror group A with left arm, such that everyone raises an arm facing the same absolute direction 
+            - beat: 4
+              action: Same as previously in measure with other arm
+        - measure: 5
+          mark: 9.6 | 9.18f
+          action: 
+            - a_group: Bloom out again
+            - b_group: Rotate so that you also face outside, bloom up, such that your hands sweep over the group a hands.
+        - measure: 6
+          mark: 12 
+          action: everyone continues to drop their hands
+          note: this ends the a/b group dynamic. 
+
+        - measure: 30
+          mark: 1:04f24
+          actions:
+          - action: skip towards nearest offstage, raising arms for a circular path 
+            beat: 0 
+          - action: skip, dropping arms, finishing the arc
+            beat: 2 
+          - action: skip
+            beat: 4 
+          - action: skip, you should be off stage by now.
+            beat: 6   
+
