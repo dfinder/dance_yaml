@@ -1,12 +1,16 @@
 ---
-- song: torre de babel
+- song: Torre de Babel
   tempo: 200 bpm(5/6)
-  rhythm: 8/8
-  notes: guitar likes to work in 8th notes, so we're functionally working at 200 BPM I think. 
+  length: around 3 minutes and 8 seconds, or 188 seconds, or somewhere around 600 beats or 75 measures.
+  conversions:
+    - Each second is 30 frames
+    - Each measure is 2 seconds and 12 frames, or 72 frames
+    - Each beat is 9 frames, or 3/10ths of a second
+  rhythm: 8/8(So each measure is 8 beats numbered 0-7)
   parts:
   - part: 1
     sections: 
-      section: flower
+    - section: Flower
       num_measures: 6
       arrangement: Circlular pattern, with alternating A/B sections of partners, facing inwards.
                     For the purposes of the test video, "A"'s are Hanna Weisman, B's are Amalia Cowen. 
@@ -55,8 +59,14 @@
             - action: everyone continues to drop their hands
               beat: 0
               note: this ends the a/b group dynamic. 
+    - section: Post intro, pre vocals
+      num_measures:  4
+      arrangement: moving from the circle to a symmetrical grid. <REMINDER TO SELF TO DEVELOP A NOTATION FOR WHERE PEOPLE SHOULD EXIST>
+      measures: 
         - measure: 7
           mark: 14f12
+          maneuvers: Everyone moves from the circle to the initial grid pattern.
+          actions: 
             - action: kick right foot out, swing arms up
               beat: 0 
               length: 2
@@ -75,20 +85,23 @@
               beat: 7
         - measure: 8
           mark: 16f24
+          shorthand: right, behind, right, cross 
           actions: 
-            - action:
+            - action: 
                 legs: Right foot right
                 arms: the hair wash; right hand forward at shoulder level, left hand behind hair, 
               beat: 0 
             - action: Left foot behind and past right
               beat: 2
-            - action: right foot right
+            - action: 
+                legs: right foot right
+                arms: do the hair wash in opposite direction(we lead with right foot now)
               beat: 4
-            - action: left foot right past right
+            - action: left foot in front right past right
               beat: 6
             - action: Hannah does this small thing to reposition her feet so that she's in a more neutral position
               beat: 7
-          graph: -\-/ 
+          graph: ->\->/ 
         - measure: 9
           mark: 19f06
           actions:
@@ -111,7 +124,7 @@
           - action: right foot can swing left in front of and past the left foot
             beat: 2
             length: 2
-            (right foot should be mid swing at beat 3)
+            #(right foot should be mid swing at beat 3)
           - action: Left foot left
             beat: 4
           - action: Right foot back
@@ -120,7 +133,10 @@
             beat: 6
           - action: Crouch
             beat: 7
-      section: Mirror     
+    - section: Vocals 1 
+      num_measures:
+      arrangement: Our previous set, but instead we divide it down the center and mirror on that central axis.
+      measures: 
         - measure: 11
           mark: 24
           note: |
@@ -128,7 +144,7 @@
              if you're on stage left, completely mirror both direction and chirality. 
              so "Out" and "in" are perhaps better replacements for right and left
           actions:
-            - action: right foot right
+            - action: Right foot Right
               beat: 0
             - action: left foot directly behind right 
               beat: 1
@@ -164,37 +180,89 @@
               beat: 5 
             - action: shift weight onto left foot moving left, but only if you're on stage right
               beat: 6 #Hinky stuff going on here with the chirality shift
-           
+            
         - measure: 13
           mark: 28f24
           actions: 
             - action: EVERYONE kicks right
               beat: 0
-            
+            - action: EVERYONE kicks left 
+              beat: 1
+            - action: People on the sides clap
+                      people in the middle stand with pointed right foot and arms crossed
+              beat: 2
+              duation: 4
+            - action: Rotate right foot to initialize your little spin
+              arms: your arms should be above your head, and falling to the ground during this next one
+              beat: 7 
         - measure: 14
           mark: 31f6
           actions: 
-            - action: Turn body right, using left foot as pivor
+            - action: Just keep rotation
               beat: 0
-        - measure: 15
+            
+        - measure: 15 #A copy of 11?
           mark: 33f18
           actions: 
             - action: Right foot right
               beat: 0
-        - measure: 16
+            - action: Left foot behind right
+              beat: 1 
+            - action: right foot right
+              beat: 2
+            - action: Left foot in front
+              beat: 3 
+            - action: right foot right
+              beat: 4 
+            - action: left foot baby step left to shift weight
+              beat: 5
+            - action: right foot kick 
+              beat: 6 
+            - action: put the right foot down. 
+              beat: 7
+        - measure: 16 # A copy of 12?
           mark: 36
           actions: 
             - action: Left foot left
               beat: 0
-        - measure: 17
+            - action: Right foot left so that you stand straight
+              beat: 1
+            - action: Left foot cross in front
+              beat: 2
+            - action: right foot right
+              beat: 3 
+            - action: left foot back
+              beat: 4 
+            - action: right foot left 
+              beat: 7 (review this timing, because it feels like things are operating in 3/3)
+        - measure: 17 #I think this is just a repeat of 13
           mark: 38f12
           actions: 
-            - action: Left foot left
+            - action: Kick right foot
               beat: 0
+            - action: Kick left foot
+              beat: 2
+            - action: raise arms for people in the center
+              beat: 4
+            - action: clap  
+              beat: 5
+              duration: 2
+            - action: rotate right 
+              beat: 7
         - measure: 18
           mark: 40f24
+          actions: 
+            - action: rotate
+              beat: 0
+              duration: 8
+           
+
+      - section: rotational 2  
+
         - measure: 19
           mark: 43f6
+          actions:
+            - action: pizza time 
         - measure: 20
           mark: 45f18
         - measure: 21
@@ -210,21 +278,23 @@
         - measure: 23
           mark: 52f24
         - measure: 24
-          mark: 
-        - measure: 25
           mark: 55f06
-        - measure: 26
+        - measure: 25
           mark: 57f18
-          actions: 
-            - action: Arms raise, left foot leaves ground,  
-              beat: 0
-        - measure: 27
+          actions: Everyone skips outwards 4 times, with the hands making a arc from center down
+        - measure: 26
           mark: 1:00f00
-        - measure: 28
+          
+        - measure: 27
           mark: 1:02f12
-        - measure: 29
+          actions: 
+            - action: sway right
+        - measure: 28
           mark: 1:04f24
-        - measure: 30
+          actions:
+            - action: right foot touches ground
+              beat: 0 
+        - measure: 29
           mark: 1:07f06
           actions:
           - action: skip towards nearest offstage, raising arms for a circular path 
