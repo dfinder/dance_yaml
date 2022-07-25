@@ -15,6 +15,7 @@
           mark: 0
           action: no action
         - measure: 2
+          mark: 2f12
           beats:
           - beat: 0
             mark: 2.4(2.12f)
@@ -29,15 +30,15 @@
             - a_group: Raise left arm from being on hip to plane of shoulder(interior)
             - b_group: Raise left arm from being on hip to plane of shoulder(exterior)
         - measure: 3
-          mark: 4.6 | 4.24f
+          mark:  4f24
           counts: 8
           simultaneous actions: 
             - both groups: rotate right, such that you go from facing your partner, to facing outside(group b) or inside(group b) 
             - a_group: "Bloom out" swing both arms out presenting them, and then slowly dropping them to the ground
             - b_group: "Bloop up", swing both arms up, then slowly bring it down
         - measure: 4
-          mark: 7.2 | 7.6f
-          beats:
+          mark: 7f6
+          actions:
             - beat: 0 
               action: 
                 - a_group: Raise right arm to neck then swing out to perpendicular, like a bird spreading its wings, hands flat.
@@ -45,17 +46,186 @@
             - beat: 4
               action: Same as previously in measure with other arm
         - measure: 5
-          mark: 9.6 | 9.18f
+          mark: 9f18
           action: 
             - a_group: Bloom out again
             - b_group: Rotate so that you also face outside, bloom up, such that your hands sweep over the group a hands.
         - measure: 6
-          mark: 12 
-          action: everyone continues to drop their hands
-          note: this ends the a/b group dynamic. 
+          mark: 12f0
+            - action: everyone continues to drop their hands
+              beat: 0
+              note: this ends the a/b group dynamic. 
+        - measure: 7
+          mark: 14f12
+            - action: kick right foot out, swing arms up
+              beat: 0 
+              length: 2
+            - action: swing left foot behind the right one, swing arms down
+              beat: 2 
+            - action: reposition/baby step the front/right foot, so that the rear/left foot can move for the next action
+              beat: 3  
+            - action: kick left foot in front, swing arms up 
+              beat: 4
+              length: 2
+            - action: swing right foot behind the left one, swing arms down
+              beat: 6
+            - action: 
+                  legs: baby step the front/left foot.
+                  arms: in preperation for the next measure, bring your arm and then to your chest so that you can flourish the arm out at the next beat.
+              beat: 7
+        - measure: 8
+          mark: 16f24
+          actions: 
+            - action:
+                legs: Right foot right
+                arms: the hair wash; right hand forward at shoulder level, left hand behind hair, 
+              beat: 0 
+            - action: Left foot behind and past right
+              beat: 2
+            - action: right foot right
+              beat: 4
+            - action: left foot right past right
+              beat: 6
+            - action: Hannah does this small thing to reposition her feet so that she's in a more neutral position
+              beat: 7
+          graph: -\-/ 
+        - measure: 9
+          mark: 19f06
+          actions:
+            - action: Right foot kick in front
+              beat: 0
+            - action: left foot kick in front
+              beat: 2
+            - action: Right foot kick in front
+              beat: 4
+            - action: left foot kick in front
+              beat: 6
 
-        - measure: 30
+        - measure: 10
+          mark: 21f18
+          actions: # Something in here is funky
+          - action: Right foot right
+            beat: 0
+          - action: Left foot back, so that 
+            beat: 1
+          - action: right foot can swing left in front of and past the left foot
+            beat: 2
+            length: 2
+            (right foot should be mid swing at beat 3)
+          - action: Left foot left
+            beat: 4
+          - action: Right foot back
+            beat: 5
+          - action: Left foot kick
+            beat: 6
+          - action: Crouch
+            beat: 7
+      section: Mirror     
+        - measure: 11
+          mark: 24
+          note: |
+             Everything gets mirrored down the center, directions here are for people on stage right
+             if you're on stage left, completely mirror both direction and chirality. 
+             so "Out" and "in" are perhaps better replacements for right and left
+          actions:
+            - action: right foot right
+              beat: 0
+            - action: left foot directly behind right 
+              beat: 1
+            - action: right foot right
+              beat: 2
+            - action: left foot in front of right
+              beat: 3 
+            - action: right foot right
+              beat: 4
+            - action: left foot left
+              beat: 5
+            - action: right foot kick left
+              beat: 6
+            - action: convert the kick to a step, while swinging your left foot left
+              beat: 7
+            
+        - measure: 12
+          mark: 26f12
+          maneuvers: 
+            people in the back move forward so that we get even lines. 
+          actions: 
+            - action: The swing we started the previous beat on with the left foot concludes
+              beat: 0
+            - action: Right foot joins left for a normal standing position
+              beat: 1
+            - action: left foot right past right foot,
+              beat: 2
+            - action: right foot right
+              beat: 3
+            - action: left foot back
+              beat: 4
+            - action: right foot front
+              beat: 5 
+            - action: shift weight onto left foot moving left, but only if you're on stage right
+              beat: 6 #Hinky stuff going on here with the chirality shift
+           
+        - measure: 13
+          mark: 28f24
+          actions: 
+            - action: EVERYONE kicks right
+              beat: 0
+            
+        - measure: 14
+          mark: 31f6
+          actions: 
+            - action: Turn body right, using left foot as pivor
+              beat: 0
+        - measure: 15
+          mark: 33f18
+          actions: 
+            - action: Right foot right
+              beat: 0
+        - measure: 16
+          mark: 36
+          actions: 
+            - action: Left foot left
+              beat: 0
+        - measure: 17
+          mark: 38f12
+          actions: 
+            - action: Left foot left
+              beat: 0
+        - measure: 18
+          mark: 40f24
+        - measure: 19
+          mark: 43f6
+        - measure: 20
+          mark: 45f18
+        - measure: 21
+          mark: 48
+        - measure: 22
+          mark: 50f12
+          actions:
+            - action: Starting from the back, and going right around the circle(clockwise), everyone assumes a crouching position after their prior neighbor does(canon)
+              beat: 0
+              length: 4
+            - action: pop out, like a flying squirrel with your arms up.
+              beat: 7
+        - measure: 23
+          mark: 52f24
+        - measure: 24
+          mark: 
+        - measure: 25
+          mark: 55f06
+        - measure: 26
+          mark: 57f18
+          actions: 
+            - action: Arms raise, left foot leaves ground,  
+              beat: 0
+        - measure: 27
+          mark: 1:00f00
+        - measure: 28
+          mark: 1:02f12
+        - measure: 29
           mark: 1:04f24
+        - measure: 30
+          mark: 1:07f06
           actions:
           - action: skip towards nearest offstage, raising arms for a circular path 
             beat: 0 
