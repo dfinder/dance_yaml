@@ -6,14 +6,14 @@
     - Each second is 30 frames
     - Each measure is 2 seconds and 12 frames, or 72 frames
     - Each beat is 9 frames, or 3/10ths of a second
-  rhythm: 8/8(So each measure is 8 beats numbered 0-7)
+  rhythm: 8/8(So each measure is 8 beats numbered 1-8)
   parts:
   - part: 1
     sections: 
     - section: Flower
       num_measures: 6
       arrangement: Circlular pattern, with alternating A/B sections of partners, facing inwards.
-                    For the purposes of the test video, "A"'s are Hanna Weisman, B's are Amalia Cowen. 
+                    For the purposes of the test video, "A"'s are Hannah Weisman, B's are Amalia Cowan. 
       measures:
         - measure: 1
           mark: 0
@@ -21,13 +21,13 @@
         - measure: 2
           mark: 2f12
           beats:
-          - beat: 0
+          - beat: 1
             mark: 2.4(2.12f)
             time: 1 beat
             action:
             - a_group: Raise right arm from being on hip to plane of shoulder(exterior)
             - b_group: Raise right arm from being on hip to plane of shoulder(interior)
-          - beat: 4
+          - beat: 5
             mark: 3.8
             time: 1 beat
             action:
@@ -43,11 +43,11 @@
         - measure: 4
           mark: 7f6
           actions:
-            - beat: 0 
+            - beat: 1 
               action: 
                 - a_group: Raise right arm to neck then swing out to perpendicular, like a bird spreading its wings, hands flat.
                 - b_group: mirror group A with left arm, such that everyone raises an arm facing the same absolute direction 
-            - beat: 4
+            - beat: 5
               action: Same as previously in measure with other arm
         - measure: 5
           mark: 9f18
@@ -57,7 +57,7 @@
         - measure: 6
           mark: 12f0
             - action: everyone continues to drop their hands
-              beat: 0
+              beat: 1
               note: this ends the a/b group dynamic. 
     - section: Post intro, pre vocals
       num_measures:  4
@@ -68,21 +68,21 @@
           maneuvers: Everyone moves from the circle to the initial grid pattern.
           actions: 
             - action: kick right foot out, swing arms up
-              beat: 0 
+              beat: 1 
               length: 2
             - action: swing left foot behind the right one, swing arms down
-              beat: 2 
+              beat: 3 
             - action: reposition/baby step the front/right foot, so that the rear/left foot can move for the next action
-              beat: 3  
+              beat: 4  
             - action: kick left foot in front, swing arms up 
-              beat: 4
+              beat: 5
               length: 2
             - action: swing right foot behind the left one, swing arms down
-              beat: 6
+              beat: 7
             - action: 
                   legs: baby step the front/left foot.
                   arms: in preperation for the next measure, bring your arm and then to your chest so that you can flourish the arm out at the next beat.
-              beat: 7
+              beat: 8
         - measure: 8
           mark: 16f24
           shorthand: right, behind, right, cross 
@@ -90,49 +90,49 @@
             - action: 
                 legs: Right foot right
                 arms: the hair wash; right hand forward at shoulder level, left hand behind hair, 
-              beat: 0 
+              beat: 1 
             - action: Left foot behind and past right
-              beat: 2
+              beat: 3
             - action: 
                 legs: right foot right
                 arms: do the hair wash in opposite direction(we lead with right foot now)
-              beat: 4
+              beat: 5
             - action: left foot in front right past right
-              beat: 6
-            - action: Hannah does this small thing to reposition her feet so that she's in a more neutral position
               beat: 7
+            - action: Hannah does this small thing to reposition her feet so that she's in a more neutral position
+              beat: 8
           graph: ->\->/ 
         - measure: 9
           mark: 19f06
           actions:
             - action: Right foot kick in front
-              beat: 0
+              beat: 1
             - action: left foot kick in front
-              beat: 2
+              beat: 3
             - action: Right foot kick in front
-              beat: 4
+              beat: 5
             - action: left foot kick in front
-              beat: 6
+              beat: 7
 
         - measure: 10
           mark: 21f18
-          actions: # Something in here is funky
+          actions: 
           - action: Right foot right
-            beat: 0
-          - action: Left foot back, so that 
             beat: 1
-          - action: right foot can swing left in front of and past the left foot
+          - action: Left foot back, so that 
             beat: 2
+          - action: right foot can swing left in front of and past the left foot
+            beat: 3
             length: 2
             #(right foot should be mid swing at beat 3)
           - action: Left foot left
-            beat: 4
-          - action: Right foot back
             beat: 5
-          - action: Left foot kick
+          - action: Right foot back
             beat: 6
-          - action: Crouch
+          - action: Left foot kick
             beat: 7
+          - action: Crouch
+            beat: 8
     - section: Vocals 1 
       num_measures:
       arrangement: Our previous set, but instead we divide it down the center and mirror on that central axis.
@@ -145,115 +145,116 @@
              so "Out" and "in" are perhaps better replacements for right and left
           actions:
             - action: Right foot Right
-              beat: 0
-            - action: left foot directly behind right 
               beat: 1
-            - action: right foot right
+            - action: left foot directly behind right 
               beat: 2
-            - action: left foot in front of right
-              beat: 3 
             - action: right foot right
-              beat: 4
-            - action: left foot left
+              beat: 3
+            - action: left foot in front of right
+              beat: 4 
+            - action: right foot right
               beat: 5
-            - action: right foot kick left
+            - action: left foot left
               beat: 6
-            - action: convert the kick to a step, while swinging your left foot left
+            - action: right foot kick left
               beat: 7
+            - action: convert the kick to a step, while swinging your left foot left
+              beat: 8
             
-        - measure: 12
+        - measure: 12 #Check this out
           mark: 26f12
           maneuvers: 
             people in the back move forward so that we get even lines. 
           actions: 
             - action: The swing we started the previous beat on with the left foot concludes
-              beat: 0
-            - action: Right foot joins left for a normal standing position
               beat: 1
-            - action: left foot right past right foot,
+            - action: Right foot joins left for a normal standing position
               beat: 2
-            - action: right foot right
+            - action: left foot right past right foot,
               beat: 3
+              count: 2
+            - action: right foot right
+              beat: 5
             - action: left foot back
-              beat: 4
+              beat: 6
             - action: right foot front
-              beat: 5 
+              beat: 7 
             - action: shift weight onto left foot moving left, but only if you're on stage right
-              beat: 6 #Hinky stuff going on here with the chirality shift
-            
+              beat: 8 
+        
         - measure: 13
           mark: 28f24
           actions: 
             - action: EVERYONE kicks right
-              beat: 0
-            - action: EVERYONE kicks left 
               beat: 1
+            - action: EVERYONE kicks left 
+              beat: 2
             - action: People on the sides clap
                       people in the middle stand with pointed right foot and arms crossed
-              beat: 2
+              beat: 3
               duation: 4
             - action: Rotate right foot to initialize your little spin
               arms: your arms should be above your head, and falling to the ground during this next one
-              beat: 7 
+              beat: 8 
         - measure: 14
           mark: 31f6
           actions: 
-            - action: Just keep rotation
-              beat: 0
+            - action: Just keep rotating
+              beat: 1
             
         - measure: 15 #A copy of 11?
           mark: 33f18
           actions: 
             - action: Right foot right
-              beat: 0
+              beat: 1
             - action: Left foot behind right
-              beat: 1 
+              beat: 2 
             - action: right foot right
-              beat: 2
+              beat: 3
             - action: Left foot in front
-              beat: 3 
-            - action: right foot right
               beat: 4 
+            - action: right foot right
+              beat: 5 
             - action: left foot baby step left to shift weight
-              beat: 5
+              beat: 6
             - action: right foot kick 
-              beat: 6 
+              beat: 7 
             - action: put the right foot down. 
-              beat: 7
+              beat: 8
         - measure: 16 # A copy of 12?
           mark: 36
           actions: 
             - action: Left foot left
-              beat: 0
-            - action: Right foot left so that you stand straight
               beat: 1
-            - action: Left foot cross in front
+            - action: Right foot left so that you stand straight
               beat: 2
+            - action: Left foot cross in front
+              beat: 3
             - action: right foot right
-              beat: 3 
-            - action: left foot back
               beat: 4 
+            - action: left foot back
+              beat: 5 
             - action: right foot left 
-              beat: 7 (review this timing, because it feels like things are operating in 3/3)
+              beat: 8 (review this timing, because it feels like things are operating in 3/3)
         - measure: 17 #I think this is just a repeat of 13
           mark: 38f12
           actions: 
             - action: Kick right foot
-              beat: 0
+              beat: 1
             - action: Kick left foot
-              beat: 2
+              beat: 3
             - action: raise arms for people in the center
-              beat: 4
-            - action: clap  
               beat: 5
+            - action: clap  
+              beat: 6
               duration: 2
             - action: rotate right 
-              beat: 7
+              beat: 8
         - measure: 18
           mark: 40f24
           actions: 
-            - action: rotate
-              beat: 0
+            - action: rotate, quarter of a turn every two beats
+              beat: 1
               duration: 8
            
 
@@ -261,48 +262,122 @@
 
         - measure: 19
           mark: 43f6
+          arrangement: |
+            People on the sides form an outer ring,  people in the middle form an inner ring
+            Outer ring rotates clockwise, inner ring goes counterclockwise
+          
           actions:
-            - action: pizza time 
+            - action:
+                arms: pizza time; right arm out, like you're holding a plate, left arm behind back. 
+                legs: Walking in rhythm to the beat
+                beat: 1 
+                duration: entire measure
         - measure: 20
           mark: 45f18
+          actions: 
+            - action: while moving in your prior direction, rotate 
+              beat: 1 
+              duration: 7 beats
+            - action: Skip into a merged ring
+              beat: 8
         - measure: 21
           mark: 48
+          actions: 
+            - action: continue skipping for the entire duration so we complete the merger
+              beat: 1 
+              duration: 8
         - measure: 22
           mark: 50f12
           actions:
             - action: Starting from the back, and going right around the circle(clockwise), everyone assumes a crouching position after their prior neighbor does(canon)
-              beat: 0
+              beat: 1
               length: 4
             - action: pop out, like a flying squirrel with your arms up.
-              beat: 7
+              beat: 8
         - measure: 23
           mark: 52f24
+          actions: 
+            - action: Still on the ground, arms up in the air 
+              beat: 1
+            - action: in the air, arms extended 
+              beat: 2
+            - action: on the ground, left foot behind right, 
+              beat: 3
+            - action: Move the left foot over, arms being brought up
+              beat: 4
+            - action: left foot is fully extended to the side, arms in the air
+              beat: 5
+            - action: 
+              beat: 6
+            - action: 
+              beat: 7
+            - action: 
+              beat: 8 
         - measure: 24
           mark: 55f06
+          actions: 
+            - action: sway right
+              beat: 1 
+            - action: unsway right
+              beat: 2
+            - action: start clap to right
+              beat: 3
+            - action: clap 1(right)
+              beat: 4
+            - action: clap 2(left)
+              beat: 5
+            - action: hold
+              beat: 6
+              duration: 2
+            - action: Jump right
+              beat: 8
         - measure: 25
           mark: 57f18
-          actions: Everyone skips outwards 4 times, with the hands making a arc from center down
+          actions: 
+            - action: reach for the stars right continued, I think this was called a flying cherkezia? 
+              beat: 1 
+              duration: 3< previous beat not included>
+            - action: flying cherkezia? left
+              beat: 4
+              duration: 3 
+               
         - measure: 26
           mark: 1:00f00
-          
+          actions: Everyone skips outwards 4 times, with the hands making a arc from center down
         - measure: 27
           mark: 1:02f12
           actions: 
-            - action: sway right
+            - action: Jump right, swinging the left leg behind right, and swinging hands up at the top, and down at the end
+              beat: 0(beat 8 of previous measure)
+              duration: 4
+            - action: Do the opposite, popping up to the left, swinging right behind left, and hands up at the middle, and down at the end 
+              beat: 3
+              duration: 4
+            - action: Sway right, extending right foot all the way out
+              beat: 8
+              duration: 1
         - measure: 28
           mark: 1:04f24
           actions:
-            - action: right foot touches ground
-              beat: 0 
+          - action: reach for the stars right continued, I think this was called a flying cherkezia? 
+            beat: 1 
+            duration: 3< previous beat not included>
+          - action: flying cherkezia? left
+            beat: 4
+            duration: 3 
         - measure: 29
           mark: 1:07f06
           actions:
           - action: skip towards nearest offstage, raising arms for a circular path 
-            beat: 0 
+            beat: 1
+            duration: 2 
           - action: skip, dropping arms, finishing the arc
-            beat: 2 
+            beat: 3 
+            duration: 2
           - action: skip
-            beat: 4 
+            beat: 5 
+            duration: 2
           - action: skip, you should be off stage by now.
-            beat: 6   
+            beat: 7
+            duration: 2  
 
